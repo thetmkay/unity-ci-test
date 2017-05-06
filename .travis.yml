@@ -1,0 +1,13 @@
+osx_image: xcode8.2
+before_install:
+  - brew update
+  - brew outdated xctool || brew upgrade xctool
+  - brew tap caskroom/cask
+install:
+  - brew cask install unity
+  - brew cask install unity-ios-support-for-editor
+  - brew cask install unity-android-support-for-editor
+scripts: ./build.sh
+
+
+
