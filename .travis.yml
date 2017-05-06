@@ -8,7 +8,7 @@ install:
   - brew cask install unity
   - brew cask install unity-ios-support-for-editor
   - brew cask install unity-android-support-for-editor
-scripts: ./build.sh
+script: ./build.sh
 
 
 
