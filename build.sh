@@ -3,7 +3,10 @@
 brew config
 brew list
 
-/Unity.app/Contents/MacOS/Unity \
+ls /usr/local
+ls /Applications
+
+/Applications/Unity.app/Contents/MacOS/Unity \
   -batchmode \
   -nographics \
   -silent-crashes \
