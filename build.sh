@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-ls
-ls /
+brew config
+brew list
 
 /Unity.app/Contents/MacOS/Unity \
   -batchmode \
@@ -9,5 +9,5 @@ ls /
   -silent-crashes \
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \
-  -buildTarget ios
+  -buildTarget ios \
   -runEditorTests
