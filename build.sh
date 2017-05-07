@@ -5,11 +5,10 @@ brew list
 
 ls /Applications
 ls /Applications/Unity
-ls /Applications/Unity.app/Contents
-ls /Applications/Unity.app/Contents/MacOS
-ls /Applications/Unity/Contents/MacOS
+ls /Applications/Unity/Unity.app/Contents
+ls /Applications/Unity/Unity.app/Contents/MacOS
 
-/Applications/Unity.app/Contents/MacOS/Unity \
+/Applications/Unity/Unity.app/Contents/MacOS/Unity \
   -batchmode \
   -nographics \
   -silent-crashes \
